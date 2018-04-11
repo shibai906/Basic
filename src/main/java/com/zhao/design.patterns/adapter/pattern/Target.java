@@ -1,0 +1,10 @@
+package com.zhao.design.patterns.adapter.pattern;
+/*
+    定于客户端使用的接口，与业务相关
+ */
+public interface Target {
+
+    // 客户端请求处理的方法
+    public void request() ;
+
+}
