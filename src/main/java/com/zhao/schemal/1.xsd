@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/huan"
+	xmlns:tns="http://www.example.org/huan" elementFormDefault="qualified">
+	<element name="person">
+		<complexType>
+			<sequence>
+				<element maxOccurs="3" name="name" type="string"></element>
+				
+			</sequence>
+			<!-- 这个属性必须出现复杂元素里面 ，位置必须在sequence下面-->
+			<attribute name="person" type="int" use="required">
+			</attribute>
+		</complexType>
+		
+	</element>
+	
+
+</schema>

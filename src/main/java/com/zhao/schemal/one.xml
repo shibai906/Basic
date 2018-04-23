@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.example.org/huan"
+xsi:schemaLocation="http://www.example.org/huan 1.xsd" person="123"
+>
+
+	<name>12</name>
+</person>
+
+
