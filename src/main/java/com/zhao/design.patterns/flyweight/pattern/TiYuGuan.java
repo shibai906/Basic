@@ -1,7 +1,6 @@
 package com.zhao.design.patterns.flyweight.pattern;
 
 
-import com.sun.xml.internal.bind.v2.runtime.Coordinator;
 
 public class TiYuGuan implements JianZhu {
 
